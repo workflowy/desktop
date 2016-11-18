@@ -1,3 +1,3 @@
-# workflowy-electron-app-releases
+# WorkFlowy Desktop
 
-## Trying to create a super awesome auto-updating, baller, beast of a thingy
+## A notetaking tool that can take your most complicated idea, you messiest pile of research, and make it manageable. Works offline, syncs across devices, is an overall joy.
