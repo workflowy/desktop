@@ -3,5 +3,10 @@
     "update": "https://github.com/workflowy/desktop/releases/download/win32-x64-prod-v1.0.7",
     "install": "https://github.com/workflowy/desktop/releases/download/win32-x64-prod-v1.0.7/WorkFlowy.Setup.1.0.7.exe",
     "version": "1.0.7"
+  },
+  "darwin-x64-prod": {
+    "update": "https://github.com/workflowy/desktop/releases/download/darwin-x64-prod-v1.0.7/release.json",
+    "install": "https://github.com/workflowy/desktop/releases/download/darwin-x64-prod-v1.0.7/WorkFlowy-1.0.7.dmg",
+    "version": "1.0.7"
   }
 }
