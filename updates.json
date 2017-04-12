@@ -10,7 +10,7 @@
     "version": "1.1.0"
   },
   "darwin-x64-prod": {
-    "update": "https://github.com/workflowy/desktop/releases/download/v1.1.2/latest-mac.json",
+    "update": "https://github.com/workflowy/desktop/releases/download/v1.1.2/release.json",
     "install": "https://github.com/workflowy/desktop/releases/download/v1.1.2/WorkFlowy-1.1.2.dmg",
     "version": "1.1.2"
   }
