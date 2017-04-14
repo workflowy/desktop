@@ -42,6 +42,6 @@
     "darwin-x64-prod": {
         "update": "https://github.com/workflowy/desktop/releases/download/v0.0.0/latest-mac.json",
         "install": "https://github.com/workflowy/desktop/releases/download/v0.0.0/WorkFlowy-0.0.0.dmg",
-        "version": "0.0.1"
+        "version": "0.0.0"
     }
 }
