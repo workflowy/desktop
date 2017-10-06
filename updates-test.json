@@ -1,0 +1,47 @@
+{
+    "win32-x64-dev": {
+        "update": "https://github.com/workflowy/desktop/releases/download/v0.0.3",
+        "install": "https://github.com/workflowy/desktop/releases/download/v0.0.3/WorkFlowy-Setup-0.0.3.exe",
+        "version": "0.0.3"
+    },
+    "linux-x64-dev": {
+        "update": "https://github.com/workflowy/desktop/releases/download/v0.0.3/WorkFlowy-0.0.3-x86_64.AppImage",
+        "install": "https://github.com/workflowy/desktop/releases/download/v0.0.3/WorkFlowy-0.0.3-x86_64.AppImage",
+        "version": "0.0.3"
+    },
+    "darwin-x64-dev": {
+        "update": "https://github.com/workflowy/desktop/releases/download/v0.0.3/latest-mac.json",
+        "install": "https://github.com/workflowy/desktop/releases/download/v0.0.3/WorkFlowy-0.0.3.dmg",
+        "version": "0.0.3"
+    },
+    "win32-x64-alpha": {
+        "update": "https://github.com/workflowy/desktop/releases/download/v0.0.3",
+        "install": "https://github.com/workflowy/desktop/releases/download/v0.0.3/WorkFlowy-Setup-0.0.3.exe",
+        "version": "0.0.3"
+    },
+    "linux-x64-alpha": {
+        "update": "https://github.com/workflowy/desktop/releases/download/v0.0.3/WorkFlowy-0.0.3-x86_64.AppImage",
+        "install": "https://github.com/workflowy/desktop/releases/download/v0.0.3/WorkFlowy-0.0.3-x86_64.AppImage",
+        "version": "0.0.3"
+    },
+    "darwin-x64-alpha": {
+        "update": "https://github.com/workflowy/desktop/releases/download/v0.0.3/latest-mac.json",
+        "install": "https://github.com/workflowy/desktop/releases/download/v0.0.3/WorkFlowy-0.0.3.dmg",
+        "version": "0.0.3"
+    },
+    "win32-x64-prod": {
+        "update": "https://github.com/workflowy/desktop/releases/download/v0.0.3",
+        "install": "https://github.com/workflowy/desktop/releases/download/v0.0.3/WorkFlowy-Setup-0.0.3.exe",
+        "version": "0.0.3"
+    },
+    "linux-x64-prod": {
+        "update": "https://github.com/workflowy/desktop/releases/download/v0.0.3/WorkFlowy-0.0.3-x86_64.AppImage",
+        "install": "https://github.com/workflowy/desktop/releases/download/v0.0.3/WorkFlowy-0.0.3-x86_64.AppImage",
+        "version": "0.0.3"
+    },
+    "darwin-x64-prod": {
+        "update": "https://github.com/workflowy/desktop/releases/download/v0.0.3/latest-mac.json",
+        "install": "https://github.com/workflowy/desktop/releases/download/v0.0.3/WorkFlowy-0.0.3.dmg",
+        "version": "0.1.5"
+    }
+}
