@@ -10,9 +10,9 @@
         "version": "0.0.5"
     },
     "darwin-x64-dev": {
-        "update": "https://github.com/workflowy/desktop/releases/download/v0.0.5/latest-mac.json",
-        "install": "https://github.com/workflowy/desktop/releases/download/v0.0.5/WorkFlowy-0.0.5.dmg",
-        "version": "0.0.5"
+        "update": "https://github.com/workflowy/desktop/releases/download/v0.1.8/latest-mac.yml",
+        "install": "https://github.com/workflowy/desktop/releases/download/v0.1.8/WorkFlowy.dmg",
+        "version": "0.1.8"
     },
     "win32-x64-alpha": {
         "update": "https://github.com/workflowy/desktop/releases/download/v0.0.5",
@@ -25,9 +25,9 @@
         "version": "0.0.5"
     },
     "darwin-x64-alpha": {
-        "update": "https://github.com/workflowy/desktop/releases/download/v0.0.5/latest-mac.json",
-        "install": "https://github.com/workflowy/desktop/releases/download/v0.0.5/WorkFlowy-0.0.5.dmg",
-        "version": "0.0.5"
+        "update": "https://github.com/workflowy/desktop/releases/download/v0.1.8/latest-mac.yml",
+        "install": "https://github.com/workflowy/desktop/releases/download/v0.1.8/WorkFlowy.dmg",
+        "version": "0.1.8"
     },
     "win32-x64-prod": {
         "update": "https://github.com/workflowy/desktop/releases/download/v0.0.5",
@@ -40,8 +40,8 @@
         "version": "0.0.5"
     },
     "darwin-x64-prod": {
-        "update": "https://github.com/workflowy/desktop/releases/download/v0.0.5/latest-mac.json",
-        "install": "https://github.com/workflowy/desktop/releases/download/v0.0.5/WorkFlowy-0.0.5.dmg",
-        "version": "0.0.5"
+        "update": "https://github.com/workflowy/desktop/releases/download/v0.1.8/latest-mac.yml",
+        "install": "https://github.com/workflowy/desktop/releases/download/v0.1.8/WorkFlowy.dmg",
+        "version": "0.1.8"
     }
 }
