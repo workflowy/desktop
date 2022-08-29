@@ -3,9 +3,9 @@ name: Cleanup drafts
 on:
   schedule:
     - cron: '0 5 * * 0'
-  push:
-    branches:
-      - 'master'
+  # push:
+  #   branches:
+  #     - 'master'
 
 jobs:
   build:
