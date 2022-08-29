@@ -1,0 +1,21 @@
+name: Cleanup drafts
+
+on:
+  schedule:
+    - cron: '0 5 * * 7'
+  push:
+    branches:
+      - 'master'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Cleanup
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |-
+          hub release -f "%T (%S) %n" --include-drafts  | grep " (draft)" | awk '{print ${'$'}1}' | xargs -t -n1 hub release delete || exit 0
