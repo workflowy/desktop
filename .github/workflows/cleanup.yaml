@@ -2,7 +2,7 @@ name: Cleanup drafts
 
 on:
   schedule:
-    - cron: '0 5 * * 7'
+    - cron: '0 5 * * 0'
   push:
     branches:
       - 'master'
