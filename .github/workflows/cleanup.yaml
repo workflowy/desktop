@@ -1,21 +1,21 @@
-name: Cleanup drafts
+name: Delete Draft Releases older than 5 days
 
 on:
   schedule:
     - cron: '0 5 * * 0'
-  # push:
-  #   branches:
-  #     - 'master'
+  push:
+    paths:
+      - '.github/workflows/cleanup.yaml'
+
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
 
-      - name: Cleanup
+    steps:
+      - name: Delete drafts
+        uses: hugo19941994/delete-draft-releases@v1.0.0
+        with:
+          threshold: 5d
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |-
-          hub release -f "%T (%S) %n" --include-drafts  | grep " (draft)" | awk '{print $1}' | xargs -t -n1 hub release delete || exit 0
